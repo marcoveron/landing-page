@@ -1,5 +1,7 @@
 body {
     font-family: Roboto;
+    margin: 0;
+    padding: 0;
 }
 
 #logo{
@@ -12,7 +14,8 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    align-items: center;
+    align-items: top;
+    margin-top: 30px;
     color: white;
     list-style-type: none;
     gap: 20px;
@@ -22,7 +25,47 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 675px;
     background-color: #1F2937;
 }
 
+.greeting {
+    display: flex;
+    background-color: #1F2937;
+    padding: 50px;
+    justify-content: center;
+    gap: 175px;
+}
+
+.greet-left {
+    max-width: 500px;
+}
+
+.greet-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 7px;
+}
+
+.greet-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-bottom: 0;
+}
+
+.greet-button {
+    background-color: #3882F6;
+    color: white;
+    font-size: 18px;
+    border-radius: 7px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#airplane {
+    width: auto;
+    height: 290px;
+}
