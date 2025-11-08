@@ -62,6 +62,7 @@ body {
     color: white;
     font-size: 18px;
     border-radius: 7px;
+    border: none;
     padding: 5px;
     padding-left: 15px;
     padding-right: 15px;
@@ -70,4 +71,39 @@ body {
 #airplane {
     width: auto;
     height: 290px;
+    border-radius: 3px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-title {
+    font-size: 36px;
+    font-weight: 900px;
+    color: #1F2937;
+    padding: 20px;
+}
+
+.content-cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#product {
+    width: 150px;
+    height: auto;
+    border-radius: 3px;
 }
