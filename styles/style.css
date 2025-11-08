@@ -135,3 +135,57 @@ body {
     font-size: 25px;
     margin-bottom: 100px;
 }
+
+.sign-up {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-section {
+    display: flex;
+    color: white;
+    border-radius: 10px;
+    width: 900px;
+    height: 130px;
+    font-size: 20px;
+    background-color: #3882F6;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.sign-title, .sign-text {
+    padding: 0;
+    margin: 0;
+}
+
+.sign-title {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.sign-right-button {
+    color: white;
+    background-color: #3882F6;
+    border: 2px white solid;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
+    background-color: #1F2937;
+    padding: 20px;
+}
